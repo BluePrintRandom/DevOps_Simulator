@@ -1,0 +1,46 @@
+Previous: StartHere.txt
+My setup:
+
+In the First protoype there are 10 laptops each running Ubuntu 20.04
+they are arranged as two rows of 5 with fixed IPs assigned as 
+192.168.0.201 - 204 plus 205
+192.168.0.206 - 209 plus 210
+
+Machines 205 and 210 are not part of the cluster.
+
+The 8 laptops will host virtualbox servers - the 205 and 210 machines provide 
+browsers, downloads and monitoring screens for the rest of the cluster
+I use one more machine machines on a second group to set up and configure the cluster
+environment and consolidate control using the multiport terminal "Terminator" 
+
+All the machines are set up to login without passwords via ssh keys:
+on each machine run:
+
+ssh-keygen -f "/home/$USER/.ssh/known_hosts" -R "xx.xx.xx.xx"
+
+then connect to each machine and run:
+
+ssh-copy-id cubespawn@192.168.0.xx
+
+once this is done you can ssh to each machine and run 
+
+sudo visudo
+
+this will open /etc/sudoers.tmp
+
+add the line:
+$USER ALL=(ALL) NOPASSWD:ALL
+to the end of the file
+
+now bash scripts including sudo can be run from a single external terminal
+to do all the setup work for your lab cluster
+
+(This will become a set of shell scripts)
+
+Ansible steps here...
+
+Vagrant Steps here...
+
+Next: CreateContainers.txt
+
+
