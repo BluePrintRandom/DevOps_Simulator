@@ -1,0 +1,11 @@
+This Repo aims to setup a working environment for a CubeSpawn Simulator, 
+using the many orchestration and virtualization tools available.
+
+Broadly, the steps I have used for the prototype are: to setup several Virtual Machines hosted on several laptops,
+The next phase will be to migrate this environment to several multicore 4U servers when performance requirements merit it.
+
+To begin, ssh keys must be generated and shared to enable secure passwordless ssh between the machines.
+the included scripts will setup resources on each machine (ansible, vagrant, some vagrant plugins, docker docker-machine 
+
+Ansible and Vagrant will bring up the VMS from the scripts in the "shell" folder , then docker, docker-machine, and rancherOS with lay a foundation for the docker containers for each service in the simulator    
+
