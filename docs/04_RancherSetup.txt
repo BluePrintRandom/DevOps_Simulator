@@ -1,0 +1,1 @@
+docker-machine create -d virtualbox --virtualbox-boot2docker-url $RANCHEROS-ISO-URL $MACHINE-NAME

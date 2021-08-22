@@ -1,7 +1,7 @@
 Previous: StartHere.txt
 My setup:
 
-In the First protoype there are 10 laptops each running Ubuntu 20.04
+In the first protoype there are 10 laptops, each running Ubuntu 20.04
 they are arranged as two rows of 5 with fixed IPs assigned as 
 192.168.0.201 - 204 plus 205
 192.168.0.206 - 209 plus 210
@@ -10,8 +10,10 @@ Machines 205 and 210 are not part of the cluster.
 
 The 8 laptops will host virtualbox servers - the 205 and 210 machines provide 
 browsers, downloads and monitoring screens for the rest of the cluster
-I use one more machine machines on a second group to set up and configure the cluster
-environment and consolidate control using the multiport terminal "Terminator" 
+I use one more machine on a second group to set up and configure the cluster
+environment and consolidate control using the multiport terminal "Terminator"
+i.e. 
+sudo apt install terminator
 
 All the machines are set up to login without passwords via ssh keys:
 on each machine run:
@@ -41,6 +43,6 @@ Ansible steps here...
 
 Vagrant Steps here...
 
-Next: CreateContainers.txt
+Next: RancherSetup.txt
 
 
