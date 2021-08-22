@@ -1,13 +1,15 @@
-This is the first fileThis Repo aims to setup a working environment for a CubeSpawn Simulator, 
+This is the first file!
+
+This Repo aims to setup a working environment for a CubeSpawn Simulator, 
 using the many orchestration and virtualization tools available.
 
 Broadly, the steps I have used for the prototype are: 
 
 Setup fluid communication for scripting via ssh keys and passwordless sudo,
+(Note: passwordless sudo has huge potential security implications, NOT for a production environment!)
 
 Download and install all the required support tools on the lab hardware
 
-Ansible
 Vagrant
 docker-machine
 Docker
@@ -21,3 +23,4 @@ offer services on the LAN, without exposing them to the internet
 
 The next phase will be to migrate this environment to several multicore 4U servers when performance requirements merit it.
 
+Next: 02_HardwareSetup.txt
