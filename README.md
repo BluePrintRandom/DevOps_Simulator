@@ -8,13 +8,15 @@ git clone https://github.com/CubeSpawn/DevOps_Simulator.git
 
 Setup your lab machines, (networked, running, etc)
 Collect or set your cluster IPs
-My setup is
+My physical setup is:
 
 Workstation
 
 Cluster01 Cluster02 Cluster03 Cluster04 Cluster05
 
 Cluster06 Cluster07 Cluster08 Cluster09 Cluster10
+
+All running Ubuntu 20.04 Desktop
 
 Machines Cluster01-04 and 06-09 make up the hardware for this lab 
 
