@@ -13,6 +13,7 @@ My setup is
 Workstation
 
 Cluster01 Cluster02 Cluster03 Cluster04 Cluster05
+
 Cluster06 Cluster07 Cluster08 Cluster09 Cluster10
 
 Machines Cluster01-04 and 06-09 make up the hardware for this lab 
