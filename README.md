@@ -11,6 +11,7 @@ Collect or set your cluster IPs
 My setup is
 
 Workstation
+
 Cluster01 Cluster02 Cluster03 Cluster04 Cluster05
 Cluster06 Cluster07 Cluster08 Cluster09 Cluster10
 
