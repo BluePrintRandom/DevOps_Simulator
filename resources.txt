@@ -1,0 +1,15 @@
+#DevOps_Simulator/resourcees.txt -- 30-Aug-2021
+
+Terraform
+Vagrant
+Consul
+Nomad
+
+Docker
+
+
+Possibly:
+Packer
+Vault ?
+
+ 
